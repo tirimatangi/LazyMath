@@ -297,7 +297,7 @@ The most important reference is the book<br>
 Boyd & Vandenberghe: Introduction to Applied Linear Algebra, Cambridge University Press 2018
 
 Especially chapters 16, 18 and 19 are helpful.
-A copy of it can be found at [Stanford web site]/https://web.stanford.edu/~boyd/vmls/vmls.pdf)
+A copy of it can be found at [Stanford web site](https://web.stanford.edu/~boyd/vmls/vmls.pdf)
 
 There is a series of lectures of Stanford ENGR108 to go with the book in YouTube. For example here is a lecture on [constrained optimization](https://www.youtube.com/watch?v=00njRSL8WNQ).
 
