@@ -4,7 +4,7 @@
 **LazyMath** is a header-only math library written in C++17. The features are
 
 * Linear solver using conjugate gradient algorithm. Both real and complex matrices are supported. Also linear constraints can be given.
-* Function minimizer using Levenberg-Marquardt algorithm with or without constraints.
+* Function minimizer using Levenberg-Marquardt algorithm with or without non-linear constraints.
 
 ## Examples
 
