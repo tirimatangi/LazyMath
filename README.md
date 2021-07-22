@@ -1,5 +1,5 @@
 
-# Complex linear solver and function minimizer in C++
+# Complex linear solver and function minimizer with and without constraints in C++
 
 **LazyMath** is a header-only math library written in C++17. The features are
 
