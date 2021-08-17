@@ -222,7 +222,7 @@ public:
             tmpNorm = norm2(tmpFx);
 
             // Was there enough progress?
-            if (tmpNorm * (1 + errorTolerance) < _minNorm) {
+            if (tmpNorm < _minNorm) {
                 _minX = tmpX;
                 _minFx = tmpFx;
                 _minNorm = tmpNorm;
@@ -545,7 +545,7 @@ public:
                     tmpNormFxGx += (_mu * (tmpGx[i] * tmpGx[i]) + 2 * tmpGx[i] * _minZ[i] + (_minZ[i] * _minZ[i]) / _mu);
 
                 // Was there enough progress?
-                if (tmpNormFxGx * (1 + errorTolerance) < minNormFxGx) {
+                if (tmpNormFxGx < minNormFxGx) {
                     _minX = tmpX;
                     _minFx = tmpFx;
                     _minGx = tmpGx;
