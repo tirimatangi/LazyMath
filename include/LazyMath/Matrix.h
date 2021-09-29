@@ -85,6 +85,7 @@ struct Matrix;
 template <class T, size_t Rows, size_t Cols>
 struct Matrix : std::array<Vector<T, Cols>, Rows>
 {
+    typedef T value_type;
     explicit Matrix(size_t rows, size_t cols) {
         assert(Rows == rows);
         assert(Cols == cols);
@@ -101,6 +102,7 @@ struct Matrix : std::array<Vector<T, Cols>, Rows>
 template <class T>
 struct Matrix<T, 0, 0> : std::vector<Vector<T, 0>>
 {
+    typedef T value_type;
     explicit Matrix(size_t rows, size_t cols) {
         this->resize(rows);
         for (auto& row : *this)
